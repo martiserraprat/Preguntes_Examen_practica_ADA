@@ -51,7 +51,7 @@ const questions = [
     {
         category: "Recuperació 24-25",
         q: "9.- Quin és el mínim nombre d'execucions de l'algorisme de Dijkstra que són necessàries per crear la taula de camins entre n visites?",
-        options: ["a)", "b)", "c)", "d)", "e) Cap de les anteriors."],
+        options: ["a) n x n", "b) (n-1) x (n-1)", "c) n", "d) n - 1", "e) Cap de les anteriors."],
         correct: 3
     },
     {
@@ -243,3 +243,4 @@ prevBtn.onclick = () => {
 // Iniciar
 
 loadQuestion();
+
